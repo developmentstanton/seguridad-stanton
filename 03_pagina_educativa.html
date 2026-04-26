@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Simulación de Phishing - Stanton S.A.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    padding: 40px 20px;
+    color: #202124;
+  }
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+  .header {
+    background-color: #d93025;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  .header .icon { font-size: 50px; margin-bottom: 10px; }
+  .header h1 { font-size: 26px; font-weight: 500; }
+  .content { padding: 35px; line-height: 1.6; }
+  .content h2 {
+    font-size: 18px;
+    color: #1a73e8;
+    margin: 25px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #e8f0fe;
+  }
+  .content p { margin-bottom: 12px; font-size: 15px; }
+  .content ul { margin-left: 20px; margin-bottom: 15px; }
+  .content li { margin-bottom: 8px; font-size: 15px; }
+  .alert-box {
+    background-color: #fef7e0;
+    border-left: 4px solid #f9ab00;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+  }
+  .success-box {
+    background-color: #e6f4ea;
+    border-left: 4px solid #34a853;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+  }
+  .signs {
+    background-color: #fce8e6;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+  }
+  .signs h3 { color: #d93025; margin-bottom: 10px; }
+  .footer {
+    background: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #5f6368;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <div class="icon">⚠️</div>
+    <h1>Esto fue una simulación de phishing</h1>
+  </div>
+
+  <div class="content">
+    <div class="alert-box">
+      <strong>No te preocupes:</strong> tus credenciales <strong>no fueron almacenadas</strong>. Este ejercicio fue autorizado por la Dirección y la Gerencia de TI de Stanton S.A. como parte del proceso de certificación de seguridad de la información.
+    </div>
+
+    <h2>📌 ¿Qué pasó?</h2>
+    <p>Recibiste un correo que parecía venir de TI pidiéndote verificar tu contraseña. Hiciste clic en el enlace y llegaste a una página falsa que imitaba el login de Google Workspace. Si esto hubiera sido un ataque real, tus credenciales corporativas estarían ahora en manos de un atacante.</p>
+
+    <h2>🔍 Señales que debiste detectar</h2>
+    <div class="signs">
+      <h3>En el correo:</h3>
+      <ul>
+        <li><strong>Sentido de urgencia:</strong> "24 horas o pierdes acceso" — los atacantes usan presión para que actúes sin pensar.</li>
+        <li><strong>Solicitud de credenciales:</strong> TI <strong>nunca</strong> te pedirá tu contraseña por correo.</li>
+        <li><strong>Enlace genérico:</strong> al pasar el cursor sobre el botón, el enlace no apunta a un dominio conocido de Stanton ni de Google.</li>
+      </ul>
+      <h3 style="margin-top: 15px;">En la página de login:</h3>
+      <ul>
+        <li><strong>URL sospechosa:</strong> el dominio no era <code>accounts.google.com</code>.</li>
+        <li><strong>Sin candado HTTPS legítimo</strong> o certificado emitido para Google.</li>
+      </ul>
+    </div>
+
+    <h2>✅ Qué hacer si recibes un correo así de verdad</h2>
+    <ul>
+      <li><strong>No hagas clic</strong> en enlaces ni descargues archivos adjuntos.</li>
+      <li><strong>Verifica directamente:</strong> abre tu navegador y entra a Google manualmente.</li>
+      <li><strong>Reporta el correo</strong> a TI usando el botón "Reportar phishing" de Gmail o reenviándolo a <strong>soporte@stanton.co</strong>.</li>
+      <li><strong>Si ya hiciste clic o ingresaste tu contraseña:</strong> cámbiala inmediatamente y avisa a TI <strong>sin miedo a represalias</strong>. Lo importante es contener el incidente rápido.</li>
+    </ul>
+
+    <div class="success-box">
+      <strong>📚 Próximos pasos:</strong> En los próximos días recibirás una invitación a una capacitación corta (15 minutos) sobre detección de phishing. Tu participación es importante para fortalecer la seguridad de toda la organización.
+    </div>
+
+    <h2>🤝 Reflexión final</h2>
+    <p>Caer en un phishing simulado <strong>no es motivo de vergüenza ni sanción</strong>. Los atacantes son cada vez más sofisticados y todos —incluyendo equipos de TI— podemos ser víctimas. El objetivo de este ejercicio es <strong>aprender juntos</strong> y crear una cultura donde reportar sea más valioso que ocultar.</p>
+
+    <p style="margin-top: 25px;">Gracias por tu colaboración con la seguridad de Stanton S.A.</p>
+
+    <p style="margin-top: 20px;"><strong>W. González</strong><br>Director de Tecnología de la Información</p>
+  </div>
+
+  <div class="footer">
+    Stanton S.A. — Programa de Concienciación en Ciberseguridad 2026<br>
+    Para preguntas: soporte@stanton.co
+  </div>
+</div>
+
+</body>
+</html>
